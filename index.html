@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>¿En qué etapa está tu negocio? | 30X</title>
+  <meta name="description" content="Responde 3 preguntas y encuentra la guía de 30X para la etapa en la que está tu negocio, con el tapón que tienes que resolver primero.">
+  <meta name="theme-color" content="#000000">
+  <meta property="og:title" content="¿En qué etapa está tu negocio?">
+  <meta property="og:description" content="3 preguntas. 10 guías. Una es la tuya.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://lopezdiazjcr.github.io/etapas-30x/assets/img/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <main id="portada">
+    <svg class="arcos" viewBox="0 0 600 600" aria-hidden="true"><circle cx="440" cy="110" r="290"/><circle cx="500" cy="60" r="210"/></svg>
+
+    <header class="barra-sup">
+      <img src="assets/img/30x-logo-accent.svg" alt="30X" width="86" height="30">
+      <a href="https://www.instagram.com/crece30x/" target="_blank" rel="noopener">@crece30x</a>
+    </header>
+
+    <section class="heroe">
+      <div class="heroe-texto">
+        <p class="eyebrow">Guías 30X por etapa</p>
+        <h1>Tu negocio está en una de estas <em>10 etapas.</em></h1>
+        <p class="bajada">Responde 3 preguntas y te decimos en cuál estás, qué tienes que destapar primero y cuál de nuestras guías te toca.</p>
+        <button class="boton" type="button" data-empezar>Encontrar mi etapa</button>
+        <p class="micro" data-sin-registro hidden>Gratis y sin registro.</p>
+      </div>
+      <button class="abanico" type="button" data-empezar aria-label="Encontrar mi etapa">
+        <img src="assets/img/portadas/etapa-0.png" alt="" width="720" height="932">
+        <img src="assets/img/portadas/etapa-3.png" alt="" width="720" height="932">
+        <img src="assets/img/portadas/etapa-9.png" alt="" width="720" height="932">
+        <img src="assets/img/portadas/etapa-6.png" alt="" width="720" height="932">
+        <img src="assets/img/portadas/etapa-4.png" alt="" width="720" height="932">
+      </button>
+    </section>
+
+    <section class="seccion">
+      <h2>Diez guías. Una es la tuya.</h2>
+      <p class="bajada">Lo que necesitas con 3 personas no es lo que necesitas con 60. Por eso cada etapa tiene su propio mapa.</p>
+      <ul class="grilla" id="grilla"></ul>
+    </section>
+
+    <section class="seccion trae">
+      <h2>Qué trae cada guía</h2>
+      <ol>
+        <li><strong>El tapón</strong>Lo que hoy te frena en cada área del negocio.</li>
+        <li><strong>La salida</strong>Lo mínimo que tienes que lograr para pasar al siguiente nivel.</li>
+        <li><strong>Tu checklist</strong>Acciones concretas para esta semana y una hoja de trabajo de 1 página.</li>
+      </ol>
+      <button class="boton" type="button" data-empezar>Encontrar mi etapa</button>
+    </section>
+
+    <footer class="pie">
+      <img src="assets/img/30x-logo-accent.svg" alt="30X" width="69" height="24">
+      <p>Guías inspiradas en los trainings de Alex Hormozi (Acquisition.com). El marco, los ejemplos y los ejercicios son de 30X, que no está afiliada a Acquisition.com. Los ejemplos son ilustrativos, no casos reales. Este material no es asesoría legal, fiscal ni financiera.</p>
+    </footer>
+  </main>
+
+  <main id="quiz" hidden>
+    <div class="quiz-sup">
+      <button id="atras" type="button">← Atrás</button>
+      <span id="progreso"></span>
+      <img src="assets/img/30x-logo-accent.svg" alt="30X" width="69" height="24">
+    </div>
+    <div class="pista"><div id="barra"></div></div>
+    <div class="riel" id="riel" aria-hidden="true"></div>
+    <div class="panel" id="panel"></div>
+  </main>
+
+  <main id="resultado" hidden>
+    <header class="barra-sup">
+      <img src="assets/img/30x-logo-accent.svg" alt="30X" width="86" height="30">
+      <a href="https://www.instagram.com/crece30x/" target="_blank" rel="noopener">@crece30x</a>
+    </header>
+    <div class="res" id="res-contenido"></div>
+    <footer class="pie">
+      <p>Guías inspiradas en los trainings de Alex Hormozi (Acquisition.com). El marco, los ejemplos y los ejercicios son de 30X, que no está afiliada a Acquisition.com. Los ejemplos son ilustrativos, no casos reales. Este material no es asesoría legal, fiscal ni financiera.</p>
+    </footer>
+  </main>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/ruta.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
